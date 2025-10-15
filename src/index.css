@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-coral-500 {
+    color: #FF6B6B;
+  }
+  .text-coral-600 {
+    color: #EE5A52;
+  }
+  .bg-coral-50 {
+    background-color: #FFF5F5;
+  }
+  .bg-coral-100 {
+    background-color: #FFE5E5;
+  }
+  .bg-coral-500 {
+    background-color: #FF6B6B;
+  }
+  .bg-coral-600 {
+    background-color: #EE5A52;
+  }
+  .from-coral-500 {
+    --tw-gradient-from: #FF6B6B;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 107, 107, 0));
+  }
+  .to-coral-600 {
+    --tw-gradient-to: #EE5A52;
+  }
+  .border-coral-200 {
+    border-color: #FFCCCC;
+  }
+  .hover\:border-coral-200:hover {
+    border-color: #FFCCCC;
+  }
+}
